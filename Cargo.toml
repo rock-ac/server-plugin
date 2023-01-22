@@ -1,0 +1,25 @@
+[package]
+name = "rock-ac"
+version = "0.1.0"
+default-features = false
+features = [
+    "blocking", 
+    "json", 
+    "rustls-tls-native-roots"
+]
+authors = [
+    "savvin",
+    "OZOSKO"
+]
+
+[lib]
+crate-type = [
+    "cdylib"
+]
+
+[dependencies]
+curl = "0.4.44"
+json = "0.12.4"
+log = "0.4.17"
+samp = "0.1.2"
+urlencoding = "2.1.2"
