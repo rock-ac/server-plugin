@@ -24,7 +24,7 @@
 
 <hr>
 
-# Rock Anti-Cheat web services
+# Rock Anti-Cheat Server Plugin
 
 This monorepo contains the server plugin for Rock Anti-Cheat.
 
