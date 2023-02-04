@@ -18,6 +18,6 @@ jobs:
     - name: Setup Environment
       run: rustup target add i686-unknown-linux-gnu
     - name: Setup OpenSSL Package
-      run: sudo apt install openssl1.0 libssl1.0.0 libssl1.0-dev
+      run: sudo apt install openssl1.1 libssl1.1 libssl1.1-dev
     - name: Build
       run: cargo build --target=i686-unknown-linux-gnu
