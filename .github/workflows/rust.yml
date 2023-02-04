@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Setup Environment
       run: rustup target add i686-unknown-linux-gnu
-    - name: Setup Packages
-      run: sudo apt install libssl-dev
+    - name: Setup OpenSSL Package
+      run: sudo apt install openssl1.0 libssl1.0.0 libssl1.0-dev
     - name: Build
       run: cargo build --target=i686-unknown-linux-gnu
