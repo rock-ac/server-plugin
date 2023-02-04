@@ -18,6 +18,6 @@ jobs:
     - name: Setup Environment
       run: rustup target add i686-unknown-linux-gnu
     - name: Setup Packages
-      run: sudo apt install pkg-config libssl-dev gcc-multilib
+      run: sudo apt install pkg-config libssl-dev gcc-multilib libudev-dev
     - name: Build
       run: cargo build --target=i686-unknown-linux-gnu
